@@ -1,0 +1,60 @@
+/*
+Theme Name: Сraza
+*/
+.hidden,
+#billing_country_field,
+#shipping_country_field {display: none;}
+.woocommerce-checkout form.woocommerce-checkout .woocommerce-billing-fields h3 {display: block;}
+.woocommerce-checkout .woocommerce-additional-fields {display: block;}
+.woocommerce-checkout .woocommerce-additional-fields .woocommerce-additional-fields__field-wrapper {display: none;}
+
+.uploadcare--menu__items{
+	padding-right: 0;
+}
+.product-popup .price em {font-style: normal;}
+.product-popup-holder .wrapper-popup {
+	max-width: 1091px;
+	margin: 0 auto;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 26px 40px 24px;
+	line-height: 1.2;
+	font-size: 16px;
+}
+.product-popup-holder .wrapper-popup h2 {
+	margin: 0 0 43px;
+	font-size: 40px;
+}
+.product-popup-holder .wrapper-popup p {
+	margin: 0 0 15px;
+}
+@media screen and (max-width: 767px) {
+	.product-popup-holder {
+		padding-bottom: 60px;
+	}
+	.product-popup-holder .wrapper-popup {
+		line-height: 1.13;
+		padding: 32px 20px 1px;
+	}
+	.product-popup-holder .wrapper-popup h2 {
+		font-size: 26px;
+		margin-bottom: 23px;
+	}
+	.product-popup-holder .wrapper-popup p {
+		margin-bottom: 18px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.product-popup-holder .for-mobile {
+		display: none !important;
+	}
+}
+.woocommerce form .form-row-first, .woocommerce-page form .form-row-first{
+	float: none;
+}
+.uploadcare--crop-widget img{
+	max-width: none !important;
+}
+.billing-address-3 .optional,.woocommerce-notices-wrapper{
+	display: none;
+}
